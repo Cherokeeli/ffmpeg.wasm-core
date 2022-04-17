@@ -14,4 +14,4 @@ path when launching `configure`, e.g. `/ffmpegdir/ffmpeg/configure`.
 NOTICE
 ------
 
- - Non system dependencies (e.g. libx264, libvpx) are disabled by default.
+ - Non system dependencies (e.g. libx264, libvpx) are disabled by default..
