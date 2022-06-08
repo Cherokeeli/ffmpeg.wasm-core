@@ -20,7 +20,7 @@ jobs:
       max-parallel: 1
       matrix:
         script:
-          - build-zlib
+#          - build-zlib
 #          - build-x264
 #          - build-x265
 #          - build-libvpx
