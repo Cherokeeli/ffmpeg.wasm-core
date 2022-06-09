@@ -62,22 +62,22 @@ FFMPEG_CONFIG_FLAGS_BASE=(
   --disable-debug         # disable debug info, required by closure
   --disable-runtime-cpudetect   # disable runtime cpu detect
   --disable-autodetect    # disable external libraries auto detect
-#  --disable-everything
-#  --disable-network
-#  --enable-small
-#  --enable-protocol=file
-#  --enable-ffmpeg
-#  --enable-avcodec
-#  --enable-avformat
-#  --enable-swresample
-#  --enable-avfilter
-#  --enable-filter=aresample
-#  --disable-swscale
-#  --enable-muxer=mp3,ogg,wav,mp4,flac,pcm*
-#  --enable-demuxer=mp3,ogg,wav,aac,flac,pcm*
-#  --enable-encoder=libvorbis,wavpack,adpcm_ima_wav
-#  --enable-decoder=mp3*,opus,libopus,vorbis,libvorbis,wavpack,adpcm_ima_wav,flac,aac*,libfdk_aac \
-#  --enable-libmp3lame --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-nonfree \
+  --disable-everything
+  --disable-network
+  --enable-small
+  --enable-protocol=file
+  --enable-ffmpeg
+  --enable-avcodec
+  --enable-avformat
+  --enable-swresample
+  --enable-avfilter
+  --enable-filter=aresample
+  --disable-swscale
+  --enable-muxer=mp3,ogg,wav,mp4,flac,pcm*
+  --enable-demuxer=mp3,ogg,wav,aac,flac,pcm*
+  --enable-encoder=mp3*,opus,libopus,vorbis,libvorbis,wavpack,adpcm_ima_wav,flac,aac*,libfdk_aac
+  --enable-decoder=mp3*,opus,libopus,vorbis,libvorbis,wavpack,adpcm_ima_wav,flac,aac*,libfdk_aac \
+  --enable-libmp3lame --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-nonfree \
   --extra-cflags="$CFLAGS"
   --extra-cxxflags="$CFLAGS"
   --extra-ldflags="$LDFLAGS"
