@@ -21,16 +21,16 @@ jobs:
       matrix:
         script:
 #          - build-zlib
-#          - build-x264
+          - build-x264
 #          - build-x265
 #          - build-libvpx
-          - build-wavpack
-          - build-lame
-          - build-fdk-aac
-          - build-ogg
-          - build-vorbis
+#          - build-wavpack
+#          - build-lame
+#          - build-fdk-aac
+#          - build-ogg
+#          - build-vorbis
 #          - build-theora
-          - build-opus
+#          - build-opus
 #          - build-libwebp
 #          - build-freetype2
 #          - build-fribidi
