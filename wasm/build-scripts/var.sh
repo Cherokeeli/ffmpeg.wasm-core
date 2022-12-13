@@ -74,7 +74,7 @@ FFMPEG_CONFIG_FLAGS_BASE=(
   --enable-filter=aresample
   --disable-swscale
   --enable-muxer=mp3,ogg,wav,mp4,flac,pcm*
-  --enable-demuxer=mp3,ogg,wav,aac,flac,pcm*,mjpeg,mjpeg_2000
+  --enable-demuxer=mp3,ogg,wav,aac,flac,pcm*,mjpeg,mjpeg_2000,mov,mp4,m4a,3gp,3g2,mj2
   --enable-encoder=mp2*,pcm*,mp3*,libmp3lame,opus,libopus,vorbis,libvorbis,wavpack,adpcm_ima_wav,flac,aac*,libfdk_aac
   --enable-decoder=alac,mjpeg,mp2*,pcm*,mp3*,libmp3lame,opus,libopus,vorbis,libvorbis,wavpack,adpcm_ima_wav,flac,aac*,libfdk_aac \
   --enable-libmp3lame --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-nonfree \
