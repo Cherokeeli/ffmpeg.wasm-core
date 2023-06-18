@@ -73,8 +73,8 @@ FFMPEG_CONFIG_FLAGS_BASE=(
   --enable-avfilter
   --enable-filter=aresample
   --disable-swscale
-  --enable-muxer=mp4
-  --enable-demuxer=mp4
+  --enable-muxer=mp4,h264
+  --enable-demuxer=mp4,h264
   --enable-encoder=libx264
   --enable-decoder=libx264 \
   --enable-libx264 \
